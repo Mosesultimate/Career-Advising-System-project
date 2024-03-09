@@ -6,9 +6,9 @@ from langchain.llms import OpenAI
 import os
 
 
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="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"
 
-openai_api="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"
+
 st.title("Career-Advising System")
 st.write("What are your main strengths and skills?")
 skills=st.text_input("Skills")
