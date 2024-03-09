@@ -6,7 +6,7 @@ from langchain_community.llms import OpenAI
 import os
 
 
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="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"
 
 
 st.title("Career-Advising System")
