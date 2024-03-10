@@ -10,6 +10,8 @@ SUPABASE_URL="https://ckhobbtyfjchgfzbgamt.supabase.co"
 supabase=create_client(SUPABASE_URL,SUPABASE_KEY)
 
 data=supabase.table("career").select("*").execute()
+print("Data in the career table is")
+print("---------")
 print(data)
 
 st.title("Career-Advising System")
