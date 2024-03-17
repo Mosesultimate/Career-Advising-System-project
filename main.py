@@ -80,7 +80,7 @@ def create_app(openai_api_key,supabase):
         
            
                 
-    else:
+        else:
         st.write("Please fill all fields ")
 
 
