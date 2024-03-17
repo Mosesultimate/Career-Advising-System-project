@@ -87,7 +87,7 @@ def create_app(openai_api_key,supabase):
 
 
 def main():
-    openai_api_key="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"  
+    openai_api_key="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"  
     SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNraG9iYnR5ZmpjaGdmemJnYW10Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAwNzA2ODIsImV4cCI6MjAyNTY0NjY4Mn0.KwHdoe8b_4YzJeVFoJbEE38m-Cb3H6juBZDEbt5cdY4"
     SUPABASE_URL="https://ckhobbtyfjchgfzbgamt.supabase.co"  
     set_background('./Generative-AI-and-Usecases-in-different-sectors-1.jpg')
