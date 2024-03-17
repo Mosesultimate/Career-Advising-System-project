@@ -74,7 +74,7 @@ def create_app(openai_api_key,supabase):
                 prompt = PromptTemplate(input_variables=["interests","skills","goals","industry"], template="Recommend career for someone who {goals} goals,{skills} skills,{interests} interessts and prefers to work in {industry} industry and has {academic_background} as academic background.Mention just the career,do not explain")
 
                 #llm=OpenAI(temperature=0.9,openai_api_key=openai_api_key)
-                llm = HuggingFaceHub( repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1")
+                llm = HuggingFaceHub( repo_id="CohereForAI/c4ai-command-r-v01")
                 llm_chain = LLMChain(prompt=prompt, llm=llm)
                 variables={"interests":interests,"skills":skills,"goals":goals,"industry":industry,"academic_background":academic_background}
                 response=llm_chain.run(variables)
